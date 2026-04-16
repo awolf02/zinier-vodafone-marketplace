@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vodafone SmartService AI, powered by Zinier — Vodafone Business Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Utility Header -->
+  <header class="header-utility">
+    <div class="container">
+      <a href="#">Business</a>
+      <a href="#">Help</a>
+    </div>
+  </header>
+
+  <!-- Main Header -->
+  <header class="header-main">
+    <div class="container">
+      <div class="header-logo">
+        <a href="index.html" style="display:flex;align-items:center;gap:10px;">
+          <img src="assets/vodafone-logo.png" alt="Vodafone">
+        </a>
+        <span class="logo-divider"></span>
+        <span class="shop-text">Shop Apps</span>
+      </div>
+      <div class="header-actions">
+        <a href="#"><img src="assets/search-icon.png" alt="Search"></a>
+        <a href="#"><img src="assets/help-icon.png" alt="Help"></a>
+        <a href="#"><img src="assets/user-icon.png" alt="Account"></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Red Banner -->
+  <section class="product-banner">
+    <div class="container">
+      <div class="product-banner__logo">
+        <img src="assets/logo-zinier.svg" alt="Zinier">
+      </div>
+      <div class="product-banner__info">
+        <div class="product-banner__name">Zinier</div>
+        <div class="product-banner__tagline">The intelligent, adaptive field service platform</div>
+      </div>
+      <div class="product-banner__cta">
+        <button class="btn" style="background:#fff;color:var(--red);font-weight:700;">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Section Navigation -->
+  <nav class="section-nav" id="sectionNav">
+    <ul>
+      <li><a href="#overview" class="active">Overview</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#pricing">Editions &amp; Pricing</a></li>
+      <li><a href="#policies">Policies &amp; Support</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / Overview Section -->
+  <section class="hero-section" id="overview">
+    <div class="container">
+      <div class="hero-row">
+        <div class="hero-image" data-lightbox="hero" data-lightbox-src="assets/hero-image.png">
+          <img src="assets/hero-image.png" alt="Service Resolution Agent">
+        </div>
+        <div class="hero-content">
+          <h1>Your All-in-one, AI-Powered Field Service Operations Platform</h1>
+          <p>Automate scheduling, enable mobile technicians, and deliver exceptional customer service with Zinier's AI-powered platform. From real-time dispatching to intelligent work order management, streamline your entire field service operation from a single, configurable platform.</p>
+        </div>
+      </div>
+      <div class="hero-buttons">
+        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-outline">Watch Demo</button>
+        <a href="https://docs.zinier.com/learn/v25.6/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Read Documentation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <h2 class="section-title">Features</h2>
+      <div class="carousel-wrapper">
+        <!-- Arrows beside image -->
+        <button class="carousel-arrow carousel-prev" aria-label="Previous">
+          <svg viewBox="0 0 14 14"><path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+        </button>
+        <button class="carousel-arrow carousel-next" aria-label="Next">
+          <svg viewBox="0 0 14 14"><path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+        </button>
+
+        <!-- Feature 1: 24/7 Chat -->
+        <div class="carousel-item active" data-index="0">
+          <h3 class="carousel-item__title">24/7 Instant Response to Service Requests</h3>
+          <div class="carousel-item__image" data-lightbox="features" data-lightbox-src="assets/feature-chat.png">
+            <img src="assets/feature-chat.png" alt="24/7 Instant Response">
+          </div>
+          <div class="carousel-item__content">
+            <p class="carousel-item__desc">Resolve issues faster with an AI-powered chat that answers customer inquiries day and night, books appointments in real time, and keeps everyone informed with automated status updates.</p>
+            <div class="carousel-item__details">
+              <div class="feature-group">
+                <div class="feature-group__title">AI-powered Chat</div>
+                <p>Answers customer inquiries day and night, providing instant support without requiring human agents to be available around the clock.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Frictionless, Self-service Appointment Booking</div>
+                <p>Customers can schedule appointments via the Customer Portal with real-time availability, eliminating back-and-forth scheduling calls.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Clear Technician Arrival and Operational Visibility</div>
+                <p>Real-time location tracking, ETA visibility, automated status notifications, and dispatcher visibility keep customers informed every step of the way.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Capacity Management</div>
+                <p>Balance workload and skills to ensure deliverable appointments, preventing over-booking and optimizing technician utilization.</p>
+              </div>
+            </div>
+            <button class="toggle-btn" data-action="toggle">Show more</button>
+          </div>
+        </div>
+
+        <!-- Feature 2: First-Time Right -->
+        <div class="carousel-item" data-index="1">
+          <h3 class="carousel-item__title">Get It Right the First Time</h3>
+          <div class="carousel-item__image" data-lightbox="features" data-lightbox-src="assets/feature-ftr.png">
+            <img src="assets/feature-ftr.png" alt="Get It Right the First Time">
+          </div>
+          <div class="carousel-item__content">
+            <p class="carousel-item__desc">Auto-scheduling puts the best-matched technician on every job, while our mobile app and AI support ensure the job is done right the first time.</p>
+            <div class="carousel-item__details">
+              <div class="feature-group">
+                <div class="feature-group__title">Mobile App (Task Execution, Forms &amp; Checklists)</div>
+                <p>Guided mobile experience with smart fault resolution powered by LLMs, ensuring technicians have everything they need at their fingertips.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Automated Scheduling</div>
+                <p>Configurable auto-scheduler for best-matched technician assignment based on skills, location, availability, and job requirements.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Inventory &amp; Parts Management</div>
+                <p>Real-time inventory and vehicle stock visibility alignment ensures technicians arrive with the right parts for the job.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Documentation Agent</div>
+                <p>AI trained on OEM manuals and work instructions provides instant answers to technical questions in the field.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">AI Voice Radio</div>
+                <p>Hands-free voice agents for job preparation and query answering, allowing technicians to stay productive while working.</p>
+              </div>
+            </div>
+            <button class="toggle-btn" data-action="toggle">Show more</button>
+          </div>
+        </div>
+
+        <!-- Feature 3: Scale -->
+        <div class="carousel-item" data-index="2">
+          <h3 class="carousel-item__title">Scale Without Scaling Headcount</h3>
+          <div class="carousel-item__image" data-lightbox="features" data-lightbox-src="assets/feature-scale.png">
+            <img src="assets/feature-scale.png" alt="Scale Without Scaling Headcount">
+          </div>
+          <div class="carousel-item__content">
+            <p class="carousel-item__desc">Take on more work without hiring more technicians, coordinators or support staff. One manager can run a much larger field team.</p>
+            <div class="carousel-item__details">
+              <div class="feature-group">
+                <div class="feature-group__title">Turn Customer Touch-points into Revenue Opportunities</div>
+                <p>Let customers request new installations, services, and upgrades through an AI-powered chat interface — automatically converting customer touch-points into booked revenue. Technicians can request new installations, additional services and product upgrades on site, turning a site visit into additional revenue.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">AI Voice to Form</div>
+                <p>Technicians can quickly fill in forms that took hours in minutes using only their voice, allowing them to complete more jobs in less time.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Automate with Recommendations</div>
+                <p>Recommendations automate and mimic the logic a seasoned dispatcher might apply — allowing fewer coordinators to manage larger field teams.</p>
+              </div>
+            </div>
+            <button class="toggle-btn" data-action="toggle">Show more</button>
+          </div>
+        </div>
+
+        <!-- Feature 4: Custom -->
+        <div class="carousel-item" data-index="3">
+          <h3 class="carousel-item__title">Deliver Consistent Service Fit to How Your Team Operates</h3>
+          <div class="carousel-item__image" data-lightbox="features" data-lightbox-src="assets/feature-custom.png">
+            <img src="assets/feature-custom.png" alt="Deliver Consistent Service">
+          </div>
+          <div class="carousel-item__content">
+            <p class="carousel-item__desc">Configure tasks, workflows, roles, and reporting to match your operations — without code — so teams adopt faster, work more efficiently, and deliver consistently as you scale.</p>
+            <div class="carousel-item__details">
+              <div class="feature-group">
+                <div class="feature-group__title">Workforce Management (Shifts, Regions, Crews and More)</div>
+                <p>Structure your workforce by regions, crews, shifts, and working hours to mirror how teams operate in the field — enabling smarter scheduling, clearer accountability, and scalable growth.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Configurable Timesheets</div>
+                <p>Track working hours, overtime, and job time using timesheets configured to your team's actual work patterns without manual effort.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">No-code Form Builder</div>
+                <p>Design and update mobile forms/checklists using a no-code, drag-and-drop builder — so technicians follow consistent, best-practice steps without slowing down field work or relying on IT.</p>
+              </div>
+              <div class="feature-group">
+                <div class="feature-group__title">Dashboard Builder</div>
+                <p>Create role-based dashboards that surface the KPIs that matter most — so owners, dispatchers, and managers can spot issues early and optimize performance in real time.</p>
+              </div>
+            </div>
+            <button class="toggle-btn" data-action="toggle">Show more</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources / Videos Section -->
+  <section class="videos-section" id="resources">
+    <div class="container">
+      <h2 class="section-title">Videos</h2>
+      <div class="videos-grid">
+        <div class="video-card" data-video-url="https://player.vimeo.com/video/1183678362?autoplay=1">
+          <img src="assets/video-thumb-1.png" alt="AI Voice to Form">
+          <div class="video-card__overlay">
+            <div class="video-card__play">
+              <svg viewBox="0 0 20 20"><polygon points="6,3 17,10 6,17"/></svg>
+            </div>
+          </div>
+          <span class="video-card__label">AI Voice to Form</span>
+        </div>
+        <div class="video-card" data-video-url="https://player.vimeo.com/video/1183677914?autoplay=1">
+          <img src="assets/video-thumb-2.png" alt="AI Voice Radio">
+          <div class="video-card__overlay">
+            <div class="video-card__play">
+              <svg viewBox="0 0 20 20"><polygon points="6,3 17,10 6,17"/></svg>
+            </div>
+          </div>
+          <span class="video-card__label">AI Voice Radio</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots Section -->
+  <section class="screenshots-section">
+    <div class="container">
+      <h2 class="section-title">Screenshots</h2>
+      <div class="screenshots-grid">
+        <div class="screenshot-card" data-lightbox="screenshots" data-lightbox-src="assets/screenshot-1.png">
+          <img src="assets/screenshot-1.png" alt="Mobile Experience">
+          <div class="screenshot-card__label">Mobile Experience</div>
+        </div>
+        <div class="screenshot-card" data-lightbox="screenshots" data-lightbox-src="assets/screenshot-2.png">
+          <img src="assets/screenshot-2.png" alt="Dispatcher Experience">
+          <div class="screenshot-card__label">Dispatcher Experience</div>
+        </div>
+        <div class="screenshot-card" data-lightbox="screenshots" data-lightbox-src="assets/screenshot-3.png">
+          <img src="assets/screenshot-3.png" alt="No Code Form Builder">
+          <div class="screenshot-card__label">No Code Form Builder</div>
+        </div>
+        <div class="screenshot-card" data-lightbox="screenshots" data-lightbox-src="assets/screenshot-4.png">
+          <img src="assets/screenshot-4.png" alt="Timesheets">
+          <div class="screenshot-card__label">Timesheets</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Editions & Pricing Section -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Editions &amp; Pricing</h2>
+      <div class="pricing-table">
+        <div class="pricing-table__header">
+          Vodafone SmartService AI<br>powered by Zinier
+        </div>
+        <div class="pricing-table__body">
+          <div class="pricing-row">
+            <div class="pricing-row__price">£49.00</div>
+            <div class="pricing-row__unit">/ User / Month</div>
+            <div class="pricing-row__users">For 1 User And Above</div>
+            <div class="pricing-row__contract">1 month contract</div>
+          </div>
+          <div class="pricing-or">or</div>
+          <div class="pricing-row">
+            <div class="pricing-row__price">£39.00</div>
+            <div class="pricing-row__unit">/ User / Month</div>
+            <div class="pricing-row__users">For 1 User And Above</div>
+            <div class="pricing-row__contract">12 month contract</div>
+          </div>
+          <div class="pricing-or">or</div>
+          <div class="pricing-row">
+            <div class="pricing-row__price">£390.00</div>
+            <div class="pricing-row__unit">/ User / Year</div>
+            <div class="pricing-row__users">For 1 User And Above</div>
+            <div class="pricing-row__contract">1 year contract</div>
+          </div>
+        </div>
+        <div class="pricing-table__footer">
+          <div class="pricing-table__vat">Prices exc. 20% VAT</div>
+          <hr style="border:none;border-top:1px solid var(--border);margin:12px 0;">
+          <div class="pricing-table__desc">User subscription that includes Vodafone SmartService AI powered by Zinier.</div>
+        </div>
+        <div class="pricing-table__cta">
+          <button class="btn btn-primary" style="width:100%;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Policies & Support Section -->
+  <section class="policies-section" id="policies">
+    <div class="container">
+      <h2 class="section-title">Policies &amp; Support</h2>
+      <div class="policies-grid">
+        <a href="#" class="policy-link">
+          <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 3h12v12H3z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M6 7h6M6 10h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          Terms and Conditions
+        </a>
+        <a href="#" class="policy-link">
+          <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 2L3 5v4c0 4 3 7 6 8 3-1 6-4 6-8V5L9 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+          Privacy Policy
+        </a>
+        <a href="https://docs.zinier.com/learn/v25.6/" target="_blank" rel="noopener noreferrer" class="policy-link">
+          <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M9 6v4M9 12v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          Knowledge base
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <img src="assets/vodafone-logo.png" alt="Vodafone Business">
+      </div>
+      <div class="footer-links">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <span>© 2025 Vodafone Group</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video Lightbox -->
+  <div class="lightbox" id="videoLightbox">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <div class="video-lightbox__wrapper">
+      <iframe id="videoFrame" src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Previous">&#8249;</button>
+    <img class="lightbox__img" src="" alt="">
+    <button class="lightbox__nav lightbox__next" aria-label="Next">&#8250;</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

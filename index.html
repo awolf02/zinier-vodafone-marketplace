@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vodafone Business Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Utility Header -->
+  <header class="header-utility">
+    <div class="container" >
+      <span>Vodafone Business Marketplace</span>
+      <a href="#" style="display:flex;align-items:center;gap:4px;">Help <img src="assets/help-icon.png" alt="" style="width:16px;height:16px;filter:brightness(0) invert(1);"></a>
+    </div>
+  </header>
+
+  <!-- Main Header -->
+  <header class="header-main">
+    <div class="container" >
+      <div class="header-logo">
+        <img src="assets/vodafone-logo.png" alt="Vodafone">
+        <span class="logo-divider"></span>
+        <span class="shop-text">Shop Apps</span>
+      </div>
+      <div class="header-actions">
+        <a href="#" style="display:flex;align-items:center;gap:4px;font-size:13px;color:var(--text-light);">
+          <img src="assets/search-icon.png" alt="Search"> Search
+        </a>
+        <a href="#" style="display:flex;align-items:center;gap:4px;font-size:13px;color:var(--text-light);">
+          <img src="assets/user-icon.png" alt="Log in"> Log in
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filters Bar -->
+  <section class="filters-bar">
+    <div class="container" >
+      <div class="filters-left">
+        <span class="filters-label">Filters</span>
+        <button class="filter-btn">Categories <svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg></button>
+        <button class="filter-btn">Sort by <svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg></button>
+        <button class="filter-clear">Clear filters</button>
+      </div>
+      <div class="filters-right">
+        <button class="view-btn active">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          List view
+        </button>
+        <button class="view-btn">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.2"/><rect x="10" y="1" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.2"/><rect x="1" y="10" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.2"/><rect x="10" y="10" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.2"/></svg>
+          Grid view
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Listings -->
+  <main class="container" style="padding-bottom:60px;">
+
+    <!-- Zinier (clickable) -->
+    <a href="product.html" class="product-card-link">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-zinier.svg" alt="Zinier">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Vodafone SmartService AI, powered by Zinier</h2>
+          <p class="product-card__desc">Vodafone SmartService AI, powered by Zinier is an all-in-one field service management platform that gives you all the tools you need to deliver superior service — with built-in AI that works 24/7 so you can scale your business without scaling headcount.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£39.00</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;" onclick="event.preventDefault();">Buy Now</button>
+        </div>
+      </div>
+    </a>
+
+    <!-- Microsoft 365 Enterprise -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-ms365-enterprise.png" alt="Microsoft 365 Enterprise">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Microsoft 365 Enterprise</h2>
+          <p class="product-card__desc">Microsoft 365 Enterprise is a complete, intelligent solution, including Office 365, Windows 10 Enterprise, and Enterprise Mobility + Security, that empowers everyone to be creative and work together, securely.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£1.35</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Microsoft Copilot for Microsoft 365 -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-copilot.png" alt="Microsoft Copilot">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Microsoft Copilot for Microsoft 365</h2>
+          <p class="product-card__desc">Introducing Microsoft 365 Copilot – your copilot for work. Copilot combines the power of large language models (LLMs) with your organization's data – all in the flow of work – to turn your words into one of the most powerful productivity tools on the planet.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price">£0.00</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Worry-Free Business Security Suites -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-trendmicro.png" alt="Trend Micro">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Worry-Free Business Security Suites</h2>
+          <p class="product-card__desc">Trend Micro Worry-Free Services is a suite of security solutions designed to match the needs of your organization, using a blend of advanced threat protection techniques to eliminate security gaps across any user activity across...</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£1.40</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Microsoft 365 Business -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-ms365-business.png" alt="Microsoft 365 Business">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Microsoft 365 Business</h2>
+          <p class="product-card__desc">Reimagine the way you work with Microsoft 365 and Microsoft Teams. Chat, call, host online meetings, and collaborate in real time, whether you're working remotely...</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£4.83</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Workspace -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-google-workspace.png" alt="Google Workspace">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Google Workspace</h2>
+          <p class="product-card__desc">Whether you're at home, at work, or in the classroom, it's the best way to create, communicate, and collaborate. Familiar tools; fewer distractions; more time to make things happen.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£4.20</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Office 365 Enterprise -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-office365.png" alt="Office 365 Enterprise">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Office 365 Enterprise</h2>
+          <p class="product-card__desc">Office 365 Enterprise gives you all your favorite Microsoft software, plus a wide range of integrated collaboration services coupled with advanced compliance features and full IT power.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£3.26</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vodafone CybSafe -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-cybsafe.png" alt="CybSafe">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Vodafone CybSafe</h2>
+          <p class="product-card__desc">Improve security culture and change security behaviours by empowering individuals to make informed decisions.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£1.31</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exchange Online -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-exchange.png" alt="Exchange Online">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Exchange Online</h2>
+          <p class="product-card__desc">Get enterprise email and increase productivity, while keeping your business safe. Exchange Online is a hosted messaging solution that delivers the capabilities of Microsoft Exchange Server as a cloud-based service.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£0.81</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Power BI Pro -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-powerbi.png" alt="Power BI Pro">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Power BI Pro</h2>
+          <p class="product-card__desc">Power BI is a suite of business analytics tools to analyze data and share insights. Monitor your business and get answers quickly with rich dashboards available on every device.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£8.09</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visio -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-visio.png" alt="Visio">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Visio</h2>
+          <p class="product-card__desc">Customize professional-looking diagrams using a rich set of effects and themes and apply a completely different look to your design in just a few clicks.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£3.99</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project -->
+    <div class="product-card-link product-card-link--disabled">
+      <div class="product-card">
+        <div class="product-card__logo">
+          <img src="assets/logo-project.svg" alt="Project">
+        </div>
+        <div class="product-card__content">
+          <h2 class="product-card__title">Project</h2>
+          <p class="product-card__desc">Get the control and capabilities of Project Professional 2016 from virtually anywhere as an always up-to-date desktop subscription through Office 365.</p>
+          <span class="product-card__learn-more">Learn More <svg viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="product-card__pricing">
+          <span class="product-card__price-label">Starting At</span>
+          <span class="product-card__price">£5.67</span>
+          <span class="product-card__price-period">/ Month</span>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px;min-width:130px;">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container" >
+      <div class="footer-logo">
+        <img src="assets/vodafone-logo.png" alt="Vodafone Business">
+      </div>
+      <div class="footer-links">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <span>© 2025 Vodafone Group</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

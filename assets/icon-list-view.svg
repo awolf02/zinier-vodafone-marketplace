@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Grid_view">
+<g id="Vector">
+</g>
+<path id="Vector_2" d="M20.4167 6.41667H16.9167C16.2723 6.41667 15.75 6.939 15.75 7.58333V11.0833C15.75 11.7277 16.2723 12.25 16.9167 12.25H20.4167C21.061 12.25 21.5833 11.7277 21.5833 11.0833V7.58333C21.5833 6.939 21.061 6.41667 20.4167 6.41667Z" stroke="var(--stroke-0, #626262)" stroke-width="1.16667" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_3" d="M11.0833 6.41667H7.58333C6.939 6.41667 6.41667 6.939 6.41667 7.58333V11.0833C6.41667 11.7277 6.939 12.25 7.58333 12.25H11.0833C11.7277 12.25 12.25 11.7277 12.25 11.0833V7.58333C12.25 6.939 11.7277 6.41667 11.0833 6.41667Z" stroke="var(--stroke-0, #626262)" stroke-width="1.16667" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_4" d="M20.4167 15.75H16.9167C16.2723 15.75 15.75 16.2723 15.75 16.9167V20.4167C15.75 21.061 16.2723 21.5833 16.9167 21.5833H20.4167C21.061 21.5833 21.5833 21.061 21.5833 20.4167V16.9167C21.5833 16.2723 21.061 15.75 20.4167 15.75Z" stroke="var(--stroke-0, #626262)" stroke-width="1.16667" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_5" d="M11.0833 15.75H7.58333C6.939 15.75 6.41667 16.2723 6.41667 16.9167V20.4167C6.41667 21.061 6.939 21.5833 7.58333 21.5833H11.0833C11.7277 21.5833 12.25 21.061 12.25 20.4167V16.9167C12.25 16.2723 11.7277 15.75 11.0833 15.75Z" stroke="var(--stroke-0, #626262)" stroke-width="1.16667" stroke-miterlimit="10" stroke-linecap="round"/>
+</g>
+</svg>
