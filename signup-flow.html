@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Flow — Vodafone Business Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="signup-flow">
+  <div class="flow-stage">
+    <!-- All 9 screens preloaded; only .active is visible -->
+    <img class="flow-screen active" data-step="1" src="assets/signup-1-activation.png" alt="Account Activation Email">
+    <img class="flow-screen" data-step="2" src="assets/signup-2-password-empty.png" alt="Set Password">
+    <img class="flow-screen" data-step="3" src="assets/signup-3-password-filled.png" alt="Password Filled">
+    <img class="flow-screen" data-step="4" src="assets/signup-4-terms.png" alt="Terms & Conditions">
+    <img class="flow-screen" data-step="5" src="assets/signup-5-privacy.png" alt="Privacy Policy">
+    <img class="flow-screen" data-step="6" src="assets/signup-6-activated.png" alt="Account Activated">
+    <img class="flow-screen" data-step="7" src="assets/signup-7-login-empty.png" alt="Login Empty">
+    <img class="flow-screen" data-step="8" src="assets/signup-8-login-filled.png" alt="Login Filled">
+    <img class="flow-screen" data-step="9" src="assets/signup-9-home.png" alt="Home Dashboard">
+    <img class="flow-screen" data-step="10" src="assets/signup-10-dispatch.png" alt="Dispatch">
+
+    <!-- Click-capture overlay — covers the whole screen, advances on click.
+         Enabled on steps 1-7 (click anywhere advances).
+         Disabled on step 8 (only Login button advances) and step 9 (end-of-flow). -->
+    <button class="flow-click-capture" aria-label="Continue"></button>
+
+    <!-- Hotspot: Login button on screen 8. -->
+    <button class="flow-hotspot" data-step="8" data-label="Login"
+            style="top:568px; left:535px; width:370px; height:40px;"></button>
+  </div>
+
+  <script src="signup-flow.js"></script>
+</body>
+</html>

@@ -898,6 +898,69 @@ button { font-family: var(--font-accent); cursor: pointer; border: none; }
   border-radius: 4px;
 }
 
+/* ═══ Signup Flow Mockup ═══ */
+body.signup-flow {
+  margin: 0;
+  background: #fff;
+  min-width: 1440px;
+  overflow-x: auto;
+}
+.flow-stage {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+}
+.flow-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: auto;
+  opacity: 0;
+  transition: opacity 400ms ease;
+  pointer-events: none;
+  user-select: none;
+  display: block;
+}
+.flow-screen.active {
+  opacity: 1;
+  position: relative; /* the active image takes up space */
+}
+.flow-screen.fade-long {
+  transition: opacity 700ms ease;
+}
+.flow-click-capture {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: default;
+  z-index: 5;
+  pointer-events: none;
+}
+.flow-click-capture.enabled {
+  cursor: pointer;
+  pointer-events: auto;
+}
+.flow-hotspot {
+  position: absolute;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: default;
+  z-index: 10;
+  pointer-events: none;
+  /* Uncomment to debug positioning:
+     background: rgba(0, 200, 0, 0.25);
+     outline: 2px solid lime;
+  */
+}
+.flow-hotspot.enabled {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
 /* ═══ Utilities ═══ */
 .text-red { color: var(--red); }
 .mt-0 { margin-top: 0; }
